@@ -1,0 +1,414 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #020a18;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+/* navbar */
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 10px 0;
+}
+
+.logo {
+  display: inline-block;
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+.logo-image {
+  width: 30px;
+  vertical-align: middle;
+}
+
+.logo-name a {
+  vertical-align: middle;
+  color: #3a68b8;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.logo-name a:hover {
+  color: #fff;
+}
+
+.main-nav a {
+  /* display: inline-block;
+  margin: 0 90px;
+  font-weight: 500; */
+  transition: all 0.3s ease-in-out;
+}
+
+.main-nav a:hover {
+  color: #3a68b8;
+}
+.main-nav li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.sign-in-btn {
+  border: none;
+  background-color: #3a68b8;
+  padding: 10px 15px;
+  color: #fff;
+  border-radius: 5px;
+}
+/* 1bet boslandi */
+
+.one-txt {
+  display: inline-block;
+  width: 49%;
+}
+
+.one-img {
+  display: inline-block;
+  width: 49%;
+}
+.one-img img {
+  width: 500px;
+  margin-top: 50px;
+  padding: 0 50px;
+}
+
+.one-txt h3 {
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.one-txt h1 {
+  font-size: 50px;
+  padding: 10px 0;
+}
+
+.one-txt p {
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+/* tugmalar */
+.btns {
+  padding: 20px 0;
+}
+
+.btn {
+  width: 120px;
+  height: 50px;
+  border: none;
+  background-color: #3a68b8;
+  padding: 5px;
+  margin: 0 20px 0 0;
+  color: #fff;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+  font-size: 15px;
+}
+.btn:hover {
+  border: 1px solid #3a68b8;
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+}
+.btn img {
+  width: 15px;
+}
+
+.partners {
+  width: 800px;
+  margin: 20px 0 0 340px;
+  /* padding: 0 20px; */
+}
+.aquater {
+  display: inline-block;
+  width: 24%;
+  vertical-align: middle;
+  padding: 0 20px;
+  transition: all 0.3s ease-in-out;
+}
+.aquater:hover {
+  transform: translate(0, -10px);
+  margin-top: 1px;
+}
+/* 1bet tugadi */
+/* 2bet boshlandi */
+
+.two-img {
+  display: inline-block;
+  width: 55%;
+  margin-top: 100px;
+  padding: 0 50px;
+  vertical-align: middle;
+}
+
+.two-img img {
+  width: 100%;
+}
+.two-txt {
+  display: inline-block;
+  width: 39%;
+  vertical-align: middle;
+  margin-top: 150px;
+}
+.two-txt h1 {
+  font-size: 50px;
+  line-height: 50px;
+  letter-spacing: 5px;
+}
+.two-txt p {
+  font-size: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  letter-spacing: 1.5px;
+}
+
+.two-btn {
+  padding-bottom: 20px;
+}
+
+#services {
+  margin-top: 200px;
+}
+.cards {
+  padding: 0 40px 0 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.card {
+  /* 
+  display: inline-block;
+  width: 17%;
+  vertical-align: middle; */
+  text-align: center;
+  background: rgb(35, 29, 29);
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+}
+.card:hover {
+  transform: translate(0, -50px);
+  margin-top: 10px;
+}
+.s {
+  width: 300px;
+  height: 400px;
+  margin: 10px;
+}
+.card img {
+  width: 150px;
+  padding: 20px;
+}
+
+.card h3 {
+  font-size: 25px;
+  padding: 10px 20px;
+}
+.card p {
+  font-size: 20px;
+  padding: 0 10px;
+}
+/*  */
+
+.three-txt {
+  display: inline-block;
+  width: 49%;
+  padding-left: 100px;
+  vertical-align: middle;
+}
+
+.three-img {
+  display: inline-block;
+  width: 49%;
+  vertical-align: middle;
+}
+.three-img img {
+  width: 100%;
+  margin-top: 50px;
+  padding: 100px 50px;
+}
+
+.three-txt h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+}
+
+.three-txt p {
+  font-size: 22px;
+  padding: 10px 0;
+}
+
+footer {
+  background: rgb(90, 82, 89);
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 0 50px 0 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.logos {
+  list-style-type: none;
+  /* display: inline-block; */
+  padding-top: 40px;
+}
+.loga {
+  /* vertical-align: middle; */
+  font-size: 15px;
+
+  line-height: 30px;
+}
+
+.logo-names {
+  display: flex;
+  justify-content: space-between;
+}
+
+.loga span img {
+  width: 25px;
+}
+.loga span h4 {
+  font-size: 25px;
+  font-weight: normal;
+}
+.loga p {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.log {
+  display: flex;
+
+  line-height: 25px;
+}
+.log h6 {
+  font-size: 15px;
+  font-weight: normal;
+  font-style: italic;
+}
+.log img {
+  width: 20px;
+}
+
+.info {
+  margin-top: 30px;
+}
+
+.infor {
+  font-size: 25px;
+  line-height: 50px;
+  font-weight: normal;
+}
+.infos {
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 20px;
+}
+
+.info-h4 {
+  font-weight: normal;
+}
+
+/* Toldirishlardan keyingi CSS lar */
+header {
+  width: 100%;
+  margin: 0;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #020a18;
+  color: white;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+
+header i {
+  font-size: 30px;
+  cursor: pointer;
+}
+.con {
+  width: 400px;
+  height: 100%;
+  background-color: rgba(86, 81, 81, 0.646);
+  color: #fff;
+}
+#check {
+  display: none;
+}
+
+#check:checked ~ .containers {
+  right: 0;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  width: 100%;
+  padding-top: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+li {
+  font-size: 25px;
+}
+
+.containers {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  transition: all 1s ease-in-out;
+  right: -100%;
+  position: fixed;
+  background-color: rgba(156, 129, 129, 0.16);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+label {
+  transition: all 0.5s ease-in;
+}
+.logo ~ label:hover {
+  transform: rotate(90deg);
+  transition: all 0.5s ease-in-out;
+}
+
+.exit {
+  transition: all 1s ease;
+  font-size: 30px;
+}
+
+.con .exit:hover {
+  transform: rotate(90deg) !important;
+  transition: all 0.5s ease-in-out;
+  color: #3a68b8;
+}
+
+/* header {
+  position: fixed;
+} */
+
+/* .fixed {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+} */
